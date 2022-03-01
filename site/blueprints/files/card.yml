@@ -1,0 +1,23 @@
+title: Card
+accept: image/*
+maxsize: 2097152
+orientation: square
+maxwidth: 1000px
+
+fields:        
+  caption:
+    label: Caption
+    type: writer
+    size: medium
+  alt:
+    label: Alternative Text
+    type: text
+    width: 1/2
+  link:
+    label: Link
+    type: pages
+    multiple: false
+    width: 1/2
+
+
+

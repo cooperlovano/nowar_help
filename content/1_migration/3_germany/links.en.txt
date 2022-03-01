@@ -1,0 +1,52 @@
+Title: Germany
+
+----
+
+Text: 
+
+----
+
+Links:
+
+- 
+  title_en: Asylum Process in Berlin, Germany
+  title_ua: ""
+  title_ru: ""
+  description_en: ""
+  description_ua: ""
+  description_ru: ""
+  link:
+    - 
+      link: >
+        https://www.berlin.de/willkommenszentrum/en/arrival/asylum-process/
+      lang: en
+      lang_other: ""
+    - 
+      link: >
+        https://www.berlin.de/willkommenszentrum/ru/etap-1-pribytie/prozedura-polutschenija-statusa-beshenza/
+      lang: ru
+      lang_other: ""
+  tags: asylum
+- 
+  title_en: >
+    Registration as an Asylum Seeker in
+    Germany
+  title_ua: ""
+  title_ru: ""
+  description_en: >
+    Information on how to register as an
+    asylum seeker in German
+  description_ua: ""
+  description_ru: ""
+  link:
+    - 
+      link: >
+        https://handbookgermany.de/en/rights-laws/asylum/registration-for-asylumseekers.html
+      lang: en
+      lang_other: ""
+    - 
+      link: >
+        https://handbookgermany.de/ru/rights-laws/asylum/registration-for-asylumseekers.html
+      lang: ru
+      lang_other: ""
+  tags: asylum

@@ -1,0 +1,79 @@
+title: Link Page
+
+fields:
+  text:
+    label: Text
+    type: blocks
+    size: large
+  
+  links:
+    label: Links
+    type: structure
+    columns:
+      title_en:
+        width: 1/4
+      title_ua:
+        width: 1/4
+      title_ru:
+        width: 1/4
+      tags: 
+        width: 1/4
+    translate: false
+    fields:
+      title_en:
+        label: Title (EN)
+        type: text
+        required: true
+        width: 1/3
+      title_ua:
+        label: Title (UA)
+        type: text
+        width: 1/3
+      title_ru:
+        label: Title (RU)
+        type: text
+        width: 1/3
+      description_en:
+        label: Description (EN)
+        type: text
+      description_ua:
+        label: Description (UA)
+        type: text
+      description_ru:
+        label: Description (RU)
+        type: text
+      links:
+        label: Link
+        type: structure
+        max: 5
+        translate: false
+        fields:
+          link:
+            type: url
+          lang:
+            label: Language
+            type: checkboxes
+            options:
+              en: English
+              ua: Ukrainian
+              ru: Russian
+            width: 1/2
+          lang_other:
+            label: Other languages
+            type: text
+            width: 1/2
+      tags:
+        label: Tags
+        type: tags
+        width: 1/2
+      featured:
+        label: Featured
+        type: toggle
+        width: 1/4
+      approved:
+        label: Approved
+        type: toggle
+        width: 1/4
+
+
+

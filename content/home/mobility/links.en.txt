@@ -1,0 +1,25 @@
+Title: Mobility
+
+----
+
+Text: 
+
+----
+
+Links:
+
+- 
+  title_en: Information asylum
+  title_ua: test
+  title_ru: ""
+  description_en: Aylum
+  description_ua: ""
+  description_ru: ""
+  link:
+    - 
+      link: https://wwww.test.de
+      lang: ""
+      lang_other: ""
+  tags: asylum
+  title: Test
+  description: A website for information on blabla

@@ -10,7 +10,7 @@
             <?= $page->text()->toBlocks() ?>
         </div>
 
-        <?php snippet('cards') ?>
+        <?php snippet('links') ?>
     </article>
 </div>
 

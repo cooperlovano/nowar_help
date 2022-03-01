@@ -1,0 +1,27 @@
+Title: Bulgaria
+
+----
+
+Text: 
+
+----
+
+Links:
+
+- 
+  title_en: Asylum in Bulgaria
+  title_ua: Притулок в Болгарії
+  title_ru: Убежище в Болгарии
+  description_en: Information on aylum in Bulgaria
+  description_ua: ""
+  description_ru: ""
+  links: [ ]
+  tags: asylum
+  featured: 'false'
+  approved: 'false'
+  link:
+    - 
+      link: >
+        https://migrantlife.bg/articles/asylum-bulgaria
+      lang: en
+      lang_other: ""

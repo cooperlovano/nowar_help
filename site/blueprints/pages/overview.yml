@@ -1,32 +1,30 @@
-title: Default Page
+title: Link Overview
 icon: page
-pages:
-  template: 
-  - overview
-  - default
 
 columns:
   navigation:
-    width: 1/3
+    width: 1/2
     sections:
       published:
-        headline: Published Pages
+        headline: Published Links
         type: pages
+        template: links 
         status: listed
 
       unlisted:
-        headline: Unlisted
+        headline: Unlisted Links
         type: pages
         status: unlisted
-        help: Not listed in the navigation bar
+        template: links 
 
       drafts:
         headline: Drafts
         type: pages
+        template: links 
         status: draft
 
   main:
-    width: 2/3
+    width: 1/2
     sections:
       content:
         type: fields
@@ -36,9 +34,3 @@ columns:
             type: blocks
             size: large
                 
-      cards:
-        headline: Cards
-        type: files
-        template: card
-        layout: cards
-        text: "<h3>{{ file.link.toPage.title }}</h3>{< file.caption.text >}"

@@ -1,0 +1,17 @@
+Caption: <h4></h4>
+
+----
+
+Alt: Symbol for a group
+
+----
+
+Link: - support-links
+
+----
+
+Sort: 5
+
+----
+
+Template: card
