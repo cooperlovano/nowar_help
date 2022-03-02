@@ -1,0 +1,87 @@
+Title: Worldwide
+
+----
+
+Text: 
+
+----
+
+Links:
+
+- 
+  title_en: 'Airbnb: Accomodation Offers'
+  title_ua: ""
+  title_ru: 'Airbnb: предложения размещения'
+  description_en: ""
+  description_ua: ""
+  description_ru: ""
+  links:
+    - 
+      link: https://news.airbnb.com/help-ukraine/
+      lang: en
+      lang_other: ""
+  tags: ""
+  featured: 'false'
+  approved: 'true'
+- 
+  title_en: 'Casa Connect: Sccomodation Offers'
+  title_ua: ""
+  title_ru: >
+    предложения
+    размещения
+  description_en: ""
+  description_ua: ""
+  description_ru: ""
+  links:
+    - 
+      link: https://casa-connect.org
+      lang: en
+      lang_other: ""
+  tags: ""
+  featured: 'false'
+  approved: 'true'
+- 
+  title_en: 'Host4Ukraine: Accomodation Offers'
+  title_ua: ""
+  title_ru: 'Host4Ukraine: предложения размещения'
+  description_en: ""
+  description_ua: ""
+  description_ru: ""
+  links:
+    - 
+      link: https://www.host4ukraine.com/
+      lang: ""
+      lang_other: ""
+  tags: ""
+  featured: 'false'
+  approved: 'true'
+- 
+  title_en: 'Ukrainenow: accomodation offers'
+  title_ua: Ukrainenow
+  title_ru: 'Ukrainenow: предложения размещения'
+  description_en: ""
+  description_ua: ""
+  description_ru: ""
+  links:
+    - 
+      link: https://www.ukrainenow.org/
+      lang: ua, en
+      lang_other: ""
+  tags: ""
+  featured: 'false'
+  approved: 'true'
+- 
+  title_en: 'Shelter4ua: accomodation offers'
+  title_ua: Shelter4ua
+  title_ru: 'Shelter4ua: предложения размещения'
+  description_en: ""
+  description_ua: ""
+  description_ru: ""
+  links:
+    - 
+      link: https://www.shelter4ua.com/
+      lang: en, ua
+      lang_other: ""
+  tags: ""
+  featured: 'false'
+  approved: 'true'

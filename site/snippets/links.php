@@ -43,20 +43,29 @@ $language = $kirby->language();
             <?php if ($description->exist()): ?><p><?= $description->html() ?></p><?php endif ?>
             
             <?php 
-            $links = $link_entry->link()->toStructure();
+            $links = $link_entry->links()->toStructure();
             foreach ($links as $singleLink): 
-            if (! is_null($singleLink) ):
+            if ($singleLink->link() != ""):
+            $langBoxes = [];
             $langBoxes = $singleLink->lang()->split();
-            if ($singleLink->lang_other()->exists()) { $langBoxes[] = $singleLink->lang_other(); };
-
-?>
-            <div class="nw_link-lang-containter">
-            <span class="nw_link-lang-code"><?= implode("/", $langBoxes) ?></span>
-            <a href="<?= $singleLink->link() ?>" target="_blank"><?= $singleLink->link() ?></a><br>
+            if ($singleLink->lang_other() != "") { $langBoxes[] = $singleLink->lang_other(); };
+    
+?>          <a href="<?= $singleLink->link() ?>" target="_blank">
+                <div class="nw_link-link-containter">
+                    <span class="nw_link-lang-code"><?= implode(" ", $langBoxes) ?></span>
+                    <span class="nw_link-text"><?= $singleLink->link() ?></span>
+                </div>
+            </a>
+            <?php endif; 
+            endforeach;
+            if ($link_entry->tags() != ""):
+            ?>
+            <div class="nw_tag-container">
+                <span><?php echo t('tags') ?>:</span>
+                <?php foreach ($link_entry->tags()->split() as $tag): ?>
+                <span class="nw_link-tag" ><?php echo t($tag, $tag) ?></span>
             </div>
-            <?php endif;
-            endforeach;?>
-
+            <?php endforeach; endif; ?>
         </div>
     <?php endforeach; ?>
 </div>

@@ -1,5 +1,5 @@
 <?php
-$images = $page->images();
+$images = $page->images()->sortBy('sort');
 ?>
 
 <!-- Todo: CSS verbessern und auslagern, Prüfen ob Seiten überhaupt existiert, Links setzen -->

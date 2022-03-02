@@ -1,0 +1,41 @@
+Title: Germany
+
+----
+
+Text: 
+
+----
+
+Links:
+
+- 
+  title_en: 'Poliklinik syndicat - general medical health advice, psychosocial advice'
+  title_ua: ""
+  title_ru: 'Poliklinik syndicat - общие медицинские консультации, психосоциальные консультации'
+  description_en: ""
+  description_ua: ""
+  description_ru: ""
+  links:
+    - 
+      link: >
+        https://www.poliklinik-syndikat.org/ueber-uns/projekte/
+      lang: ""
+      lang_other: GER
+  tags: ""
+  featured: 'false'
+  approved: 'true'
+- 
+  title_en: 'Medinetz - medical support for refugees'
+  title_ua: ""
+  title_ru: 'Medinetz - медицинская помощь беженцам'
+  description_en: ""
+  description_ua: ""
+  description_ru: ""
+  links:
+    - 
+      link: https://medibueros.org/
+      lang: ""
+      lang_other: GER
+  tags: ""
+  featured: 'false'
+  approved: 'true'

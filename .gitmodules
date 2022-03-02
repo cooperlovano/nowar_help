@@ -1,0 +1,3 @@
+[submodule "site/plugins/k3-trevor-view"]
+	path = site/plugins/k3-trevor-view
+	url = https://github.com/rasteiner-dist/k3-trevor-view.git

@@ -21,4 +21,18 @@ columns:
         type: pages
         status: draft
 
+  main:
+    width: 1/2
+    sections:
+      content:
+        type: fields
+        fields:
+          footermenu:
+            label: Footer Menu
+            type: pages
 
+          footertext:
+            label: Footer Text
+            type: blocks
+            
+                

@@ -1,0 +1,28 @@
+Title: Poland
+
+----
+
+Text: 
+
+----
+
+Links:
+
+- 
+  title_en: accomodation offers
+  title_ua: ""
+  title_ru: >
+    предложения
+    размещения
+  description_en: ""
+  description_ua: ""
+  description_ru: ""
+  links:
+    - 
+      link: >
+        https://ukrainesupport.net/uk/ad_category/mieszkanie/
+      lang: ua
+      lang_other: pl
+  tags: ""
+  featured: 'false'
+  approved: 'true'

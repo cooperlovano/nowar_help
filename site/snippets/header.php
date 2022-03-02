@@ -20,7 +20,7 @@
 	<header id="masthead" class="clearfix" role="banner">
 		<div id="site-title">
 			<h1><a href="<?= $site->url() ?>" title="nowar.help">nowar.help</a></h1>
-			<h2 class="site-description">Overview of Information<br>for War Refugees</h2>
+			<h2 class="site-description"><?php echo t('subtitle') ?></h2>
 			</div><!-- end #site-title -->
 	</header><!-- end #masthead -->
 

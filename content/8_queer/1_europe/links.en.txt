@@ -1,0 +1,28 @@
+Title: Europe
+
+----
+
+Text: 
+
+----
+
+Links:
+
+- 
+  title_en: LGBTIQ+ Support for Ukraine
+  title_ua: ""
+  title_ru: >
+    Поддержка ЛГБТИК+ для
+    Украины
+  description_en: ""
+  description_ua: ""
+  description_ru: ""
+  links:
+    - 
+      link: ""
+      lang: en
+      lang_other: >
+        https://docs.google.com/document/d/12iSFcOUc5RpLM_fyBgfB0v1vVA9rhP_H7hAF4NPq-M8/edit
+  tags: ""
+  featured: 'false'
+  approved: 'true'

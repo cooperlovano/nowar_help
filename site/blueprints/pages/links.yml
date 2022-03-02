@@ -74,6 +74,7 @@ fields:
         label: Approved
         type: toggle
         width: 1/4
+        default: true
 
 
 

@@ -1,0 +1,28 @@
+Title: Europe
+
+----
+
+Text: 
+
+----
+
+Links:
+
+- 
+  title_en: BIPOC and LGBTQ+ accomodation
+  title_ua: >
+    размещение BIPOC и
+    ЛГБТК+
+  title_ru: ""
+  description_en: ""
+  description_ua: ""
+  description_ru: ""
+  links:
+    - 
+      link: >
+        https://docs.google.com/forms/d/e/1FAIpQLSdiU0Y3k-6IBCAduwDJte_CbqK6XZ8kqYvvEPTYRQzzRR0Mvg/viewform
+      lang: en
+      lang_other: ""
+  tags: ""
+  featured: 'false'
+  approved: 'true'

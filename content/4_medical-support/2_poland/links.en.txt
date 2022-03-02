@@ -1,0 +1,24 @@
+Title: Poland
+
+----
+
+Text: 
+
+----
+
+Links:
+
+- 
+  title_en: medical support for pregnant women
+  title_ua: ""
+  title_ru: >
+    медицинская
+    поддержка для
+    беременных
+  description_en: help@mojemam.pl
+  description_ua: help@mojemam.pl
+  description_ru: help@mojemam.pl
+  links: [ ]
+  tags: ""
+  featured: 'false'
+  approved: 'true'

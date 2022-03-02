@@ -1,1 +1,13 @@
+Footermenu:
+
+- about-us
+- data-privacy
+- imprint
+
+----
+
+Footertext: [{"content":{"text":""},"id":"b3dfc06c-6d9f-420c-9a53-b091b1921166","isHidden":false,"type":"text"}]
+
+----
+
 Text: 
