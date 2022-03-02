@@ -6,8 +6,10 @@
     <title><?= $page->title() ?></title>
 
 	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel='stylesheet' href='<?= $kirby->url('assets') ?>/bootstrap-grid.min.css' type='text/css' media='all' />
     <link rel='stylesheet' href='<?= $kirby->url('assets') ?>/moka.css' type='text/css' media='all' />
 	<link rel='stylesheet' href='<?= $kirby->url('assets') ?>/nowar.css' type='text/css' media='all' />
+
 </head>
 
 <body class="page-template-default page page-id-31">

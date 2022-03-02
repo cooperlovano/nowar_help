@@ -50,9 +50,10 @@ $language = $kirby->language();
             if ($singleLink->lang_other()->exists()) { $langBoxes[] = $singleLink->lang_other(); };
 
 ?>
+            <div class="nw_link-lang-containter">
             <span class="nw_link-lang-code"><?= implode("/", $langBoxes) ?></span>
             <a href="<?= $singleLink->link() ?>" target="_blank"><?= $singleLink->link() ?></a><br>
-            
+            </div>
             <?php endif;
             endforeach;?>
 
