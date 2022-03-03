@@ -72,6 +72,10 @@
     flex-direction: row;
 }
 
+.nw_overview-country {
+    line-height: 3rem;
+}
+
 .nw_link-box {
 	background: var(--medium);
 	padding: 2rem;
@@ -113,14 +117,13 @@
     background-position: center;
     width: 1rem;
     line-height: 1.5rem;
-    margin-right: 0.5rem;
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0.8rem;
   }
 
-.nw_link-link-containter {
+.nw_link-link-container {
     padding-left: 0rem;
     min-height: 2rem;
     line-height: 1rem;
@@ -129,6 +132,12 @@
     margin-bottom: 0.5rem;
     background: var(--light);
     overflow: hidden;
+    transition: 0.3s all;
+}
+
+.nw_link-link-container:hover {
+    background: var(--dark);
+    color: var(--light);
 }
 
 .nw_right-container {
@@ -136,12 +145,12 @@
     margin-top: 2rem;
 }
 
-.nw_link-link-containter .nw_link-text {
+.nw_link-link-container .nw_link-text {
     line-height: 1.5rem;
 }
 
 .nw_link-text { 
-    padding: 0.5rem 0;
+    padding: 0.5rem 0.5rem;
 } 
 
 .nw_card {
@@ -176,7 +185,6 @@
 	background: var(--medium);
     transition: all 0.3s;
     font-size: 0.83rem !important;
-
 }
 
 .languages ul li.active a, .languages ul li:hover a {
@@ -192,8 +200,11 @@
 	color: var(--dark);
 	padding: 0.6rem;
 	text-align: center;
-    margin-right: 0.5rem;
     cursor: pointer;
+}
+
+.nw_link-button ~ .nw_link-button {
+    margin-left: 0.5rem;
 }
 
 .honey {

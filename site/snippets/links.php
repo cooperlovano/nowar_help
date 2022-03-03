@@ -3,11 +3,11 @@ $linklists = $page->children();
 $language = $kirby->language();
 ?>
 
-<!-- Todo: CSS verbessern und auslagern, Prüfen ob Seiten überhaupt existiert, Links setzen -->
-<?php foreach ($linklists as $list): ?>
-<a class="nw_link-button dark" href="#<?= $list->slug() ?>"><?= $list->title()->html() ?></a>
-<?php endforeach ?>
-
+<div class="nw_overview-country">
+    <?php foreach ($linklists as $list): ?>
+    <a class="nw_link-button dark" href="#<?= $list->slug() ?>"><?= $list->title()->html() ?></a>
+    <?php endforeach ?>
+</div>
 <?php foreach ($linklists as $list): 
     
 ?>
@@ -49,8 +49,10 @@ $language = $kirby->language();
             if ($singleLink->lang_other() != "") { $langBoxes[] = $singleLink->lang_other(); };
     
 ?>          <a href="<?= $singleLink->link() ?>" target="_blank">
-                <div class="nw_link-link-containter">
+                <div class="nw_link-link-container">
+                    <?php if(sizeof($langBoxes) > 0): ?>
                     <span class="nw_link-lang-code"><?= implode(" ", $langBoxes) ?></span>
+                    <?php endif ?>
                     <span class="nw_link-text"><?= $singleLink->link() ?></span>
                 </div>
             </a>
