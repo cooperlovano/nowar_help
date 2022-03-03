@@ -168,6 +168,11 @@
     transition: all 0.3s;
 }
 
+.nw_card h4 {
+    margin-top: 0.3rem;
+    font-size: 1.1  rem;
+}
+
 .nw_card:hover {
     filter: contrast(50%);
 }
