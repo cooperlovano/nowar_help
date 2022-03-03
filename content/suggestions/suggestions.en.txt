@@ -1,8 +1,4 @@
-Title: Border & Migration
-
-----
-
-Text: [{"content":{"text":""},"id":"7fb51587-efd3-4ddf-b5ba-0465a228fcaf","isHidden":false,"type":"text"}]
+Title: Suggestions
 
 ----
 
@@ -11,11 +7,18 @@ Links:
 - 
   title: Test
   country: test
+  topic: ""
   description: rfgdf
   link: https://www.wikipedia.de
 - 
-  title: '#jufo22'
+  title: '#jufo21'
   country: Test
+  topic: Transportation
+  description: ""
+  link: http://www.hallo.de
+- 
+  title: Test
+  country: ""
   topic: 'Border & Migration'
   description: ""
   link: http://www.hallo.de

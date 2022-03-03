@@ -1,0 +1,32 @@
+title: Link Suggestion Page
+deletable: false
+
+fields:
+
+  links:
+    label: Links
+    type: structure
+    translate: false
+    fields:
+      title:
+        label: Title (EN)
+        type: text
+        required: true
+        width: 1/2
+      country:
+        label: Country
+        type: text
+        width: 1/4
+      topic:
+        label: Topic
+        type: text
+        width: 1/4
+      description:
+        label: Description (EN)
+        type: text
+      link:
+        label: Link
+        type: url
+
+
+

@@ -17,7 +17,8 @@ return [
         'asylum' => 'притулок',
         'English' => 'English',
         'Russian' => 'русский',
-        'Ukrainian' => 'український'
+        'Ukrainian' => 'український',
+        'addressource' => 'Add ressource'
     ],
     'url' => NULL
 ];

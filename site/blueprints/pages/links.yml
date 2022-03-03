@@ -9,15 +9,7 @@ fields:
   links:
     label: Links
     type: structure
-    columns:
-      title_en:
-        width: 1/4
-      title_ua:
-        width: 1/4
-      title_ru:
-        width: 1/4
-      tags: 
-        width: 1/4
+
     translate: false
     fields:
       title_en:

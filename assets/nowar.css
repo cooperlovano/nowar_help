@@ -4,7 +4,7 @@
 
 /* Max width of 1022 pixels
 ------------------------------------------------------------------------------------ */
-.burger-check {
+.burger-check, .nw_add-ressource-check {
     display: none;
 }
 
@@ -128,9 +128,10 @@
     align-items: stretch;
     margin-bottom: 0.5rem;
     background: var(--light);
+    overflow: hidden;
 }
 
-.nw_tag-container {
+.nw_right-container {
     text-align: right;
     margin-top: 2rem;
 }
@@ -184,4 +185,29 @@
 
 .languages ul li.active a, .languages ul li:hover a {
     color: var(--light) !important;
+}
+
+.nw_link-button {
+    background: var(--medium);
+	color: var(--dark);
+	padding: 0.6rem;
+	text-align: center;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+
+.honey {
+    position: absolute;
+    left: -9999px;
+}
+
+.nw_link-box .form-element input {
+    background: var(--light);
+    margin-bottom: 0.5rem;
+    width: 100%;
+}
+
+.dark {
+    background: var(--dark);
+	color: var(--light);
 }

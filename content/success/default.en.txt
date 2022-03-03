@@ -1,0 +1,5 @@
+Title: Thank you
+
+----
+
+Text: [{"content":{"text":"<p>Thank you for your help. We review this ressource and at it to the page soon!<\/p>"},"id":"71c99e2b-2300-4e5b-8717-42bf210051ae","isHidden":false,"type":"text"}]

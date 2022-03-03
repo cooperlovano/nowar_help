@@ -1,0 +1,19 @@
+Caption: 
+
+----
+
+Alt: 
+
+----
+
+Link:
+
+- general-information
+
+----
+
+Sort: 10
+
+----
+
+Template: card

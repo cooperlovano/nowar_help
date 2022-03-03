@@ -4,11 +4,9 @@ $language = $kirby->language();
 ?>
 
 <!-- Todo: CSS verbessern und auslagern, Prüfen ob Seiten überhaupt existiert, Links setzen -->
-<ul>
-    <?php foreach ($linklists as $list): ?>
-    <li><a href="#<?= $list->slug() ?>"><?= $list->title()->html() ?></a></li>
-    <?php endforeach ?>
-</ul>
+<?php foreach ($linklists as $list): ?>
+<a class="nw_link-button dark" href="#<?= $list->slug() ?>"><?= $list->title()->html() ?></a>
+<?php endforeach ?>
 
 <?php foreach ($linklists as $list): 
     
@@ -60,7 +58,7 @@ $language = $kirby->language();
             endforeach;
             if ($link_entry->tags() != ""):
             ?>
-            <div class="nw_tag-container">
+            <div class="nw_right-container">
                 <span><?php echo t('tags') ?>:</span>
                 <?php foreach ($link_entry->tags()->split() as $tag): ?>
                 <span class="nw_link-tag" ><?php echo t($tag, $tag) ?></span>
@@ -69,5 +67,8 @@ $language = $kirby->language();
         </div>
     <?php endforeach; ?>
 </div>
+
+<?php snippet('ressourcebutton') ?>
 <?php endforeach ?>
+<?php snippet('addressource') ?>
 
