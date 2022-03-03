@@ -50,5 +50,5 @@ if ($alert) : ?>
         <div class="nw_right-container">
             <input class="registration-button" type="submit" name="add" value="<?php echo t('addressource_add') ?>" />
         </div>
-    </div>
+        </form>
 </div>

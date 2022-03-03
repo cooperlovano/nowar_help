@@ -46,9 +46,9 @@ fields:
             label: Language
             type: checkboxes
             options:
-              en: English
-              ua: Ukrainian
-              ru: Russian
+              EN: English
+              UA: Ukrainian
+              RU: Russian
             width: 1/2
           lang_other:
             label: Other languages

@@ -24,7 +24,7 @@ Links:
   links:
     - 
       link: https://t.me/+dSJivBixq2w5Yjcx
-      lang: en, ua
+      lang: EN, UA
       lang_other: ""
   tags: ""
   featured: 'false'

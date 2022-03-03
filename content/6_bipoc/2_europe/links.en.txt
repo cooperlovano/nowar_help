@@ -21,7 +21,7 @@ Links:
     - 
       link: >
         https://docs.google.com/forms/d/e/1FAIpQLSdiU0Y3k-6IBCAduwDJte_CbqK6XZ8kqYvvEPTYRQzzRR0Mvg/viewform
-      lang: en
+      lang: EN
       lang_other: ""
   tags: ""
   featured: 'false'
