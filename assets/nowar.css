@@ -8,7 +8,7 @@
     display: none;
 }
 
-@media screen and (min-width: 1023px) {
+@media screen and (min-width: 1300px) {
     #sidebar-wrap {
         position: fixed;
     }
